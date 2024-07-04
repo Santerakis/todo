@@ -1,6 +1,6 @@
 {
-  "homepage": "https://santerakis.github.io/todo16v3",
-  "name": "todo16v3",
+  "homepage": "https://santerakis.github.io/todo",
+  "name": "todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +30,7 @@
     "web-vitals": "3.0.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
